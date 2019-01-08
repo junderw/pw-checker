@@ -1,0 +1,30 @@
+{
+  "name": "pw-checker",
+  "version": "1.0.0",
+  "description": "A password strength checker that integrates Have I Been Pwned Password API with zxcvbn",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junderw/pw-checker.git"
+  },
+  "keywords": [
+    "password",
+    "hibp",
+    "zxcvbn",
+    "pwned"
+  ],
+  "author": "Jonathan Underwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junderw/pw-checker/issues"
+  },
+  "homepage": "https://github.com/junderw/pw-checker#readme",
+  "dependencies": {
+    "pwned-pw": "^1.0.5",
+    "zxcvbn": "^4.4.2"
+  }
+}
